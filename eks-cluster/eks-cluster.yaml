@@ -10,4 +10,4 @@ nodeGroups:
     instanceType: t2.small
     desiredCapacity: 3
     ssh: # import public key from file
-      publicKeyName: ~/.ssh/id_rsa.pub
+      publicKeyPath: ~/.ssh/id_rsa.pub
